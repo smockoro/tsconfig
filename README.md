@@ -1,4 +1,4 @@
-# ts-base
+# tsconfig
 [![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fsmockoro%2Fts-base.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fsmockoro%2Fts-base?ref=badge_shield)
 
 
@@ -16,8 +16,6 @@ This is almost the same for all projects, so we want to use a common definition.
 The following configuration files are commonized in this repository and imported in each project.
 
 - `tsconfig`
-- `eslintrc`
-- todo: typedoc configuration file
 
 If necessary, individual projects can override the settings for their own projects.
 
@@ -32,7 +30,5 @@ npm package and publish.
 # License
 
 MIT
-
-
 
 [![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fsmockoro%2Fts-base.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fsmockoro%2Fts-base?ref=badge_large)
