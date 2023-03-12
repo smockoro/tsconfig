@@ -1,6 +1,4 @@
 # tsconfig
-[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fsmockoro%2Fts-base.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fsmockoro%2Fts-base?ref=badge_shield)
-
 
 ## Motivation
 When you create a typescript project each time, you need to configure the following settings.
@@ -30,5 +28,3 @@ npm package and publish.
 # License
 
 MIT
-
-[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fsmockoro%2Fts-base.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fsmockoro%2Fts-base?ref=badge_large)

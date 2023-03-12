@@ -1,26 +1,27 @@
 {
-  "devDependencies": {
-    "editorconfig-checker": "^5.0.1",
-    "license-checker": "^25.0.1"
-  },
-  "name": "ts-base",
+  "name": "@smockoro/tsconfig",
   "description": "shared typescript configration",
   "version": "0.1.0",
   "scripts": {
-    "lint:editorconfig": "npx editorconfig-checker"
+    "lint:editorconfig": "npx editorconfig-checker",
+    "lint:license": "npx license-checker"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/smockoro/ts-base.git"
+    "url": "git+https://github.com/smockoro/tsconfig.git"
   },
   "keywords": [
     "tsconfig",
-    "eslintrc"
+    "typescript"
   ],
   "author": "smockoro",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/smockoro/ts-base/issues"
+    "url": "https://github.com/smockoro/tsconfig/issues"
   },
-  "homepage": "https://github.com/smockoro/ts-base#readme"
+  "homepage": "https://github.com/smockoro/tsconfig#readme",
+  "devDependencies": {
+    "editorconfig-checker": "^5.0.1",
+    "license-checker": "^25.0.1"
+  }
 }
