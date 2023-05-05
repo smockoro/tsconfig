@@ -1,25 +1,30 @@
 # tsconfig
 
-## Motivation
-When you create a typescript project each time, you need to configure the following settings.
+## Motivation and Positioning of this repository
 
-- TypeScript compilation settings
-- Lint settings for ESLint
-- TypeDoc settings
+[here README.md](https://github.com/smockoro/typescript-shared-configurations)
 
-This is almost the same for all projects, so we want to use a common definition.
+## Consideration of setting values
 
-## Positioning of this repository
-
-The following configuration files are commonized in this repository and imported in each project.
-
-- `tsconfig`
-
-If necessary, individual projects can override the settings for their own projects.
+[here and docs/tsconfig](https://github.com/smockoro/typescript-shared-configurations/blob/main/docs/tsconfig/README.md)
 
 ## How to import
 
-TBD
+install packages
+
+```bash
+npm install -D @smockoro/tsconfig
+```
+
+import from `tsconfig.json`
+
+```json
+{
+  "extends": "@smockoro/tsconfig/bases",
+  ...
+  "include": ["src"] // override base configuration
+}
+```
 
 ## How to publish common definitions
 
