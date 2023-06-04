@@ -10,6 +10,7 @@
     "noUnusedParameters": true,
     "removeComments": true,
     "sourceMap": true,
+    "declaration": true,
     "declarationMap": true,
     "forceConsistentCasingInFileNames": true,
     "noFallthroughCasesInSwitch": true,
