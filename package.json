@@ -1,7 +1,7 @@
 {
   "name": "@smockoro/tsconfig",
   "description": "shared typescript configration",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "scripts": {
     "lint:editorconfig": "npx editorconfig-checker",
     "lint:license": "npx license-checker",
