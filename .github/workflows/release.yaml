@@ -12,7 +12,7 @@ jobs:
       RELEASE_IT_VERSION: 14.4.1
       RELEASE_IT_CHANGELOG_VERSION: 2.0.1
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
         with:
           fetch-depth: 0
       - uses: actions/setup-node@v2
