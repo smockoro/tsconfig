@@ -1,0 +1,14 @@
+{
+  "name": "plain",
+  "version": "1.0.0",
+  "description": "tsconfig plain test project",
+  "main": "index.js",
+  "devDependencies": {
+    "typescript": "^5.1.3"
+  },
+  "scripts": {
+    "build": "tsc"
+  },
+  "author": "smockoro",
+  "license": "MIT"
+}
