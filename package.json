@@ -22,7 +22,7 @@
   },
   "homepage": "https://github.com/smockoro/tsconfig#readme",
   "devDependencies": {
-    "@release-it/conventional-changelog": "^6.0.0",
+    "@release-it/conventional-changelog": "^8.0.0",
     "editorconfig-checker": "^6.0.0",
     "license-checker": "^25.0.1",
     "release-it": "^15.11.0"
